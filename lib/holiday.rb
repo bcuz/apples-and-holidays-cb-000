@@ -45,6 +45,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   #   holiday_hash[:winter][k] << supply
   #   # k << supply
   # end
+  holiday_hash[:spring][:memorial_day] << supply
 
 
 end
