@@ -69,7 +69,7 @@ def all_winter_holiday_supplies(holiday_hash)
 
     holiday_hash[:winter][k] << supply
     # k << supply
-end
+  end
 
 end
 
