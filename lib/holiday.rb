@@ -88,11 +88,11 @@ def all_supplies_in_holidays(holiday_hash)
     # binding.pry
     puts "#{season}:"
 
-    string = ''
+    # string = ''
   # ugh!
   # k, can just join
     data.each do |holiday, supply|
-      string += "  #{holiday.capitalize}: "
+      puts "  #{holiday.capitalize}: "
     end
 
   end
