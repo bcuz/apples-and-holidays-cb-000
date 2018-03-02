@@ -90,7 +90,7 @@ def all_supplies_in_holidays(holiday_hash)
 
     string = ''
   # ugh!
-  # k, can just join it up
+  # k, can just join
     data.each do |holiday, supply|
       string += "  #{holiday.capitalize}: "
     end
