@@ -92,7 +92,7 @@ def all_supplies_in_holidays(holiday_hash)
   # ugh!
   # k, can just join
     data.each do |holiday, supply|
-      puts "  #{holiday.capitalize}: #{supply.join(", ")}"
+      puts "  #{holiday.to_s.split('_').map(&:capitalize).join(' ')}: #{supply.join(", ")}"
     end
 
   end
